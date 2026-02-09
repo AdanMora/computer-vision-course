@@ -1,0 +1,20 @@
+# 1. Dataset Root & Splits 
+# Note: Since we use CustomStreamTrainer, these paths won't be searched 
+# for images, but the fields must exist to satisfy the YOLO API.
+# TODO: CREATE THIS FOLDER STRUCTURE EMPTY.
+
+path: ./dataset_placeholder 
+train: train_images
+val: val_images
+test:  # optional
+
+# 2. Number of Classes
+nc: 3  # <--- Change this to your total number of classes
+
+# 3. Class Names
+# The keys (0, 1, 2...) must match the 'classes' integers in your 
+# my_remote_data list from the Python script.
+names:
+  0: tapir
+  1: puma
+  2: jaguar
