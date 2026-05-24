@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+Pillow
+torch
+torchvision
+datasets
+transformers
+huggingface-hub
+python-dotenv
+fiftyone 
+pycocotools
+torchmetrics
